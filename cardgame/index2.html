@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+   <link rel="icon" href="F:\Programs\project\cardgame\image\Игра\logo.png">
+   <link rel="stylesheet" href="style.css"-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <title>Age of desteny</title>
+</head>
+<body>
+<div id="wrapper">
+   <div class="overlay"></div>
+      
+   <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+   <ul class="nav sidebar-nav">
+      <li class="sidebar-brand">
+      <img src="F:\Programs\project\cardgame\image\Игра\text.png">
+      </href>
+      </li>
+      <li>
+      <a href="F:\Programs\project\cardgame\index.html">Главная</a>
+      </li>
+      <li>
+      <a href="F:\Programs\project\cardgame\index2.html">Карты</a>
+      </li>
+      <li>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">То самое видео</a>
+      </li>
+      <li>
+      <a href="https://blankwhitescreen.com">Белый</a>
+      </li>
+      <li>
+      <a href="https://www.imdb.com/title/tt0118884/">Contact</a>
+      </li>
+      <li>
+      <a href="https://eu.hitmotop.com/song/48148823#google_vignette">Follow me</a>
+      </li>
+   </ul>
+   </nav>
+
+   <div id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+      <span class="hamb-top"></span>
+      <span class="hamb-middle"></span>
+      <span class="hamb-bottom"></span>
+      </button>
+         <div class="container">
+            <div class="row text-center">
+               <div class="col-lg-8 col-lg-offset-2">
+               </div>
+            </div>
+         </div>
+   </div>
+</div>
+<div>
+   <h1 class="card-title">Войны света</h1>
+   <div class="grid-container">
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\РыцарьКГ.jpg" width="150" height="200">
+         <div class="texte"><b>Рыцарь</b></div>
+         <div class="hover-text"><p>7 единиц жизни</p><p>2 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\Паладин.jpg" width="150" height="200">
+         <div class="texte"><b>Паладин</b></div>
+         <div class="hover-text"><p>12 единиц жизни</p><p>5 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\СолЛучник.jpg" width="150" height="200">
+         <div class="texte"><b>Солнечный лучник</b></div>
+         <div class="hover-text"><p>8 единиц жизни</p><p>4 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\Защитник.jpg" width="150" height="200">
+         <div class="texte"><b>Защитник справедливости</b></div>
+         <div class="hover-text"><p>16 единиц жизни</p><p>3 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\Священник.jpg" width="150" height="200">
+         <div class="texte"><b>Священник храма</b></div>
+         <div class="hover-text"><p>6 единиц жизни</p><p>1 единица исциления</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\Истина.jpg" width="150" height="200">
+         <div class="texte"><b>Меч истины</b></div>
+         <div class="hover-text"><p>+1еа Рыцарь</p><p>+2еа Паладин</p><p>-2еа Вражеская карта</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\Исциление.jpg" width="150" height="200">
+         <div class="texte"><b>Исциление</b></div>
+         <div class="hover-text"><p>+5 единицы жизни</p><p>Очищение от атак с переодическим уроном</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\СвященПокров.jpg" width="150" height="200">
+         <div class="texte"><b>Священный покров</b></div>
+         <div class="hover-text"><p>+1-5 едениц атаки</p><p>+1-8 едениц жизни</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\Вмешательство.jpg" width="150" height="200">
+         <div class="texte"><b>Божественное вмешательство</b></div>
+         <div class="hover-text"><p>Ваша карта не может умереть в следуещем ходу</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\1)Воины Света\Марш.jpg" width="150" height="200">
+         <div class="texte"><b>Захватывающий марш</b></div>
+         <div class="hover-text"><p>+4 единиц атаки всем картам "Воины света" находящимся на поле</p></div>
+      </div>
+   </div>
+
+   <h1 class="card-title cardrr">Тёмные маги</h1>
+   <div class="grid-container">
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\ТМаг.jpg" width="150" height="200">
+         <div class="texte"><b>Маг тьмы</b></div>
+         <div class="hover-text"><p>7 единиц жизни</p><p>1 единица атаки переодического урона на 3 хода</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\Некромант.jpg" width="150" height="200">
+         <div class="texte"><b>Проклятый некромант</b></div>
+         <div class="hover-text"><p>4 единиц жизни</p><p>1 единицы атаки</p><p>Способен призвать зомби на вражеском поле</p><p>+1еа(пу) всем вражеским картам пока жив некромант</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\ПовелительТеней.jpg" width="150" height="200">
+         <div class="texte"><b>Повелитель теней</b></div>
+         <div class="hover-text"><p>10 единиц жизни</p><p>3 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\Иллюзионист.jpg" width="150" height="200">
+         <div class="texte"><b>Иллюзионист</b></div>
+         <div class="hover-text"><p>5 единиц жизни</p><p>2 единицы атаки</p><p>50% шанс увернутся от атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\МагОбман.jpg" width="150" height="200">
+         <div class="texte"><b>Mагический обман</b></div>
+         <div class="hover-text"><p>70% шанс что враг атакует свои карты</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\ОгнШар.jpg" width="150" height="200">
+         <div class="texte"><b>Огненный шар</b></div>
+         <div class="hover-text"><p>+2еа(пу) Маг тьмы</p><p>-3еж ны выбранном противнике</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\Жертвопринощение.jpg" width="150" height="200">
+         <div class="texte"><b>Ритуал жертвоприношения</b></div>
+         <div class="hover-text"><p>+1еа(пу) Маг тьмы</p><p>+2еж Проклятый некромант</p><p>+2еа Повелитель теней</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\Зомби.jpg" width="150" height="200">
+         <div class="texte"><b>Призыв зомби</b></div>
+         <div class="hover-text"><p>Возможно использовать если Проклятый некромант находится на поле</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\Бездна.jpg" width="150" height="200">
+         <div class="texte"><b>Проклятье бездны</b></div>
+         <div class="hover-text"><p>+2еа(пу) вабранной вражеской карте на 2 хода</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\2)Тёмные маги\Пентаграмм.jpg" width="150" height="200">
+         <div class="texte"><b>Магический пентаграмм</b></div>
+         <div class="hover-text"><p>Защита выбранной карты от переодического урона</p></div>
+      </div>
+   </div>
+
+   <h1 class="card-title cardrr">Племена дикого леса</h1>
+   <div class="grid-container">
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\ЛучникЭлф.jpg" width="150" height="200">
+         <div class="texte"><b>Эльфийский лучник</b></div>
+         <div class="hover-text"><p>7 единиц жизни</p><p>5 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\Друид.jpg" width="150" height="200">
+         <div class="texte"><b>Друид лесов</b></div>
+         <div class="hover-text"><p>9 единиц жизни</p><p>3 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\Чародейка.jpg" width="150" height="200">
+         <div class="texte"><b>Чародейка природы</b></div>
+         <div class="hover-text"><p>7 единиц жизни</p><p>2 единицы атаки</p><p>Может призвать волков(+4еа)</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\ЛесСтраж.jpg" width="150" height="200">
+         <div class="texte"><b>Лесной страж</b></div>
+         <div class="hover-text"><p>6 единиц жизни</p><p>3 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\Дворф.jpg" width="150" height="200">
+         <div class="texte"><b>Дворф инжинер</b></div>
+         <div class="hover-text"><p>14 единиц жизни</p><p>1 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\Волки.jpg" width="150" height="200">
+         <div class="texte"><b>Призыв волков</b></div>
+         <div class="hover-text"><p>Возможно использовать если есть Чародейка природы на поле</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\Посох.jpg" width="150" height="200">
+         <div class="texte"><b>Волшебный посох</b></div>
+         <div class="hover-text"><p>+3еж +2еа Друид лесов</p><p>+2еж Чародейка природы</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\Росток.jpg" width="150" height="200">
+         <div class="texte"><b>Росток жизни</b></div>
+         <div class="hover-text"><p>+6еж всем союзным картам на поле</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\Засада.jpg" width="150" height="200">
+         <div class="texte"><b>Лесная засада</b></div>
+         <div class="hover-text"><p>Вражеская карта не сможет сделать свой ход</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\3)Племена дикого леса\СилаПрироды.jpg" width="150" height="200">
+         <div class="texte"><b>Сила природы</b></div>
+         <div class="hover-text">+6еж+5еа выбранной карте на 3 хода</div>
+      </div>
+   </div>
+
+   <h1 class="card-title cardrr">Пираты чёрного моря</h1>
+   <div class="grid-container">
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Капитан.jpg" width="150" height="200">
+         <div class="texte"><b>Капитан пиратов</b></div>
+         <div class="hover-text"><p>17 единиц жизни</p><p>8 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Скорпион.jpg" width="150" height="200">
+         <div class="texte"><b>Скорпионий стрелок</b></div>
+         <div class="hover-text"><p>15 единиц жизни</p><p>7 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Мореход.jpg" width="150" height="200">
+         <div class="texte"><b>Бушующий мореход</b></div>
+         <div class="hover-text"><p>18 единиц жизни</p><p>6 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Канонир.jpg" width="150" height="200">
+         <div class="texte"><b>Канонир</b></div>
+         <div class="hover-text"><p>11 единиц жизни</p><p>5 единицы атаки</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Сабля.jpg" width="150" height="200">
+         <div class="texte"><b>Сабля капитна</b></div>
+         <div class="hover-text"><p>+5 единиц атаки Капитан пиратов</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\ПиратЛовушк.jpg" width="150" height="200">
+         <div class="texte"><b>Пиратская ловушка</b></div>
+         <div class="hover-text"><p>Сделайте свой ход дважды</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Корабль.jpg" width="150" height="200">
+         <div class="texte"><b>Пиратский корабль</b></div>
+         <div class="hover-text"><p>+6 единиц атаки Канонир</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Волна.jpg" width="150" height="200">
+         <div class="texte"><b>Волна разрушения</b></div>
+         <div class="hover-text"><p>-3 карты из вражеской колоды</p></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Хитрый.jpg" width="150" height="200">
+         <div class="texte"><b>Хитрый манёвр</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\4)Пираты чёрного моря\Сокровища.jpg" width="150" height="200">
+         <div class="texte"><b>Сокровища на дне</b></div>
+         <div class="hover-text"></div>
+      </div>
+   </div>
+
+   <h1 class="card-title cardrr">Демоны тьмы</h1>
+   <div class="grid-container">
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Повелитель.jpg" width="150" height="200">
+         <div class="texte"><b>Повелитель демонов</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Призрак.jpg" width="150" height="200">
+         <div class="texte"><b>Призрак мрака</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Ассасин.jpg" width="150" height="200">
+         <div class="texte"><b>Тёмный ассасин</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\НизДемон.jpg" width="150" height="200">
+         <div class="texte"><b>Низший демон</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Щит.jpg" width="150" height="200">
+         <div class="texte"><b>Проклятый щит</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\ЛовушкаТеней.jpg" width="150" height="200">
+         <div class="texte"><b>Ловушка теней</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Инферно.jpg" width="150" height="200">
+         <div class="texte"><b>Пылающий инферно</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Портал.jpg" width="150" height="200">
+         <div class="texte"><b>Портал тьмы</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Проклятье.jpg" width="150" height="200">
+         <div class="texte"><b>Проклятье демона</b></div>
+         <div class="hover-text"></div>
+      </div>
+      <div class="card img-container"  onclick="shiftImage(this)">
+         <img src="F:\Programs\project\cardgame\image\Карты\5)Демоны тьмы\Воскрешение.jpg" width="150" height="200">
+         <div class="texte"><b>Воскрешение душ</b></div>
+         <div class="hover-text"></div>
+      </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+</div>
+
+	
+</body>
+<script src="script.js"></script>
+</html>
